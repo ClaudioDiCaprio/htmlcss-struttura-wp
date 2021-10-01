@@ -19,21 +19,79 @@ header {
     margin-bottom: 20px;
 } 
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
 .jumbo {
     width: 100%;
 }
 
 
+            /* ******main****** */
+
+        
+ main {
+     background-color: rgb(0, 61, 175);
+     height: 600px;
+     margin-top: 20px;
+ }
+
+ .box {
+     width: 100%;
+     margin-bottom: 20px;
+ }
+
+ .box_low {
+     width: 17%;
+ }
+
+ .box_mid {
+     width: 64%;
+     margin: 0 1% 10px
+ }
+
+
+                /* ******main****** */
 
 
 
 
 
 
-/* ******debug****** */
+
+
+
+                /* ******debug****** */
 
 .debug .jumbo {
     height: 400px;
     background-color: burlywood;
     
+}
+
+.debug .box {
+    height: 15%;
+    background-color: rgb(102, 212, 255);
+
+}
+
+.debug .box_low {
+    height: 78%;
+    background-color: rgb(102, 212, 255);
+
+}
+
+.debug .box_mid {
+    height: 78%;
+    background-color:rgb(102, 212, 255) ;
 }
