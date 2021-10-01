@@ -16,4 +16,24 @@ header {
     width: 100%;
     height: 90px;
     background-color: rgb(190, 121, 255);
+    margin-bottom: 20px;
 } 
+
+.jumbo {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* ******debug****** */
+
+.debug .jumbo {
+    height: 400px;
+    background-color: burlywood;
+    
+}
